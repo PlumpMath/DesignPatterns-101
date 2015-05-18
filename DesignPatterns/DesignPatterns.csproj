@@ -45,6 +45,11 @@
     <Compile Include="Structural\Adapter\Client.cs" />
     <Compile Include="Structural\Adapter\IAdaptee.cs" />
     <Compile Include="Structural\Adapter\IClient.cs" />
+    <Compile Include="Structural\Bridge\RefinedAbstraction.cs" />
+    <Compile Include="Structural\Bridge\Implementor1.cs" />
+    <Compile Include="Structural\Bridge\Implementor2.cs" />
+    <Compile Include="Structural\Bridge\Abstraction.cs" />
+    <Compile Include="Structural\Bridge\IImplementor.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
