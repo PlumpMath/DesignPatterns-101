@@ -53,6 +53,10 @@
     <Compile Include="Structural\Composite\Composite.cs" />
     <Compile Include="Structural\Composite\IComponent.cs" />
     <Compile Include="Structural\Composite\Leaf.cs" />
+    <Compile Include="Structural\Decorator\ConcreteComponent.cs" />
+    <Compile Include="Structural\Decorator\ConcreteDecorator.cs" />
+    <Compile Include="Structural\Decorator\Decorator.cs" />
+    <Compile Include="Structural\Decorator\IComponent.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

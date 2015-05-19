@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Structural.Composite
+namespace DesignPatterns.Structural.Decorator
 {
-    public class Leaf : IComponent
+    public class ConcreteComponent : IComponent
     {
         public void Operation()
         {
-            Debug.WriteLine("Leaf op");
+            Debug.WriteLine("ConcreteComponent");
         }
     }
 }

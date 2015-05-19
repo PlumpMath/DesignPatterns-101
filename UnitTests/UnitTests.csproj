@@ -54,6 +54,7 @@
     <Compile Include="Structural\Adapter\AdapterTest.cs" />
     <Compile Include="Structural\Bridge\BridgeTest.cs" />
     <Compile Include="Structural\Composite\CompositeTest.cs" />
+    <Compile Include="Structural\Decorator\DecoratorTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj">
