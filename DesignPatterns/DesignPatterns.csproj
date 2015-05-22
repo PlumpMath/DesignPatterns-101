@@ -57,8 +57,16 @@
     <Compile Include="Structural\Decorator\ConcreteDecorator.cs" />
     <Compile Include="Structural\Decorator\Decorator.cs" />
     <Compile Include="Structural\Decorator\IComponent.cs" />
+    <Compile Include="Structural\Facade\Facade.cs" />
+    <Compile Include="Structural\Facade\Subsystems.cs" />
+    <Compile Include="Structural\Proxy\Car.cs" />
+    <Compile Include="Structural\Proxy\Driver.cs" />
+    <Compile Include="Structural\Proxy\ICar.cs" />
+    <Compile Include="Structural\Proxy\ProxyCar.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Structural\Flyweight\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
