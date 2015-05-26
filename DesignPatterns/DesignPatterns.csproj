@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Command\ConcreteReceiver.cs" />
+    <Compile Include="Behavioral\Command\ICommand.cs" />
+    <Compile Include="Behavioral\Command\ConcreteCommand.cs" />
+    <Compile Include="Behavioral\Command\Invoker.cs" />
+    <Compile Include="Behavioral\Command\IReceiver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\Adapter\Adaptee.cs" />
     <Compile Include="Structural\Adapter\AdapteeToClientAdapter.cs" />
@@ -70,7 +75,6 @@
     <Compile Include="Structural\Proxy\ProxyCar.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral\" />
     <Folder Include="Creational\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
