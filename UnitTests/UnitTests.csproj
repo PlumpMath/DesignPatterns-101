@@ -56,6 +56,7 @@
     <Compile Include="Structural\Composite\CompositeTest.cs" />
     <Compile Include="Structural\Decorator\DecoratorTest.cs" />
     <Compile Include="Structural\Facade\FacadeTest.cs" />
+    <Compile Include="Structural\Flyweight\FlyweightTest.cs" />
     <Compile Include="Structural\Proxy\ProxyTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -64,7 +65,10 @@
       <Name>DesignPatterns</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Behavioral\" />
+    <Folder Include="Creational\" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
