@@ -39,6 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\ChainOfResponsibility\ConcreteHandler1.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\ConcreteHandler2.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\ConcreteHandler3.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\Handler.cs" />
     <Compile Include="Behavioral\Command\ConcreteReceiver.cs" />
     <Compile Include="Behavioral\Command\ICommand.cs" />
     <Compile Include="Behavioral\Command\ConcreteCommand.cs" />

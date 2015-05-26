@@ -11,7 +11,7 @@ namespace DesignPatterns.Behavioral.Command
     {
         public void Action()
         {
-            Debug.WriteLine(this.GetType().ToString() + " action invoked");
+            Debug.WriteLine(this.GetType().FullName + " action invoked");
         }
     }
 }
