@@ -54,6 +54,11 @@
     <Compile Include="Behavioral\Iterator\ConcreteAggregate.cs" />
     <Compile Include="Behavioral\Iterator\ConcreteIterator.cs" />
     <Compile Include="Behavioral\Iterator\IIterator.cs" />
+    <Compile Include="Behavioral\Mediator\Beatle.cs" />
+    <Compile Include="Behavioral\Mediator\ConcreteMediator.cs" />
+    <Compile Include="Behavioral\Mediator\IChatroom.cs" />
+    <Compile Include="Behavioral\Mediator\NonBeatle.cs" />
+    <Compile Include="Behavioral\Mediator\Participant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\Adapter\Adaptee.cs" />
     <Compile Include="Structural\Adapter\AdapteeToClientAdapter.cs" />
