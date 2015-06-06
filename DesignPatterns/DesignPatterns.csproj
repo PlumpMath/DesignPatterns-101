@@ -48,6 +48,12 @@
     <Compile Include="Behavioral\Command\ConcreteCommand.cs" />
     <Compile Include="Behavioral\Command\Invoker.cs" />
     <Compile Include="Behavioral\Command\IReceiver.cs" />
+    <Compile Include="Behavioral\Interpreter\Context.cs" />
+    <Compile Include="Behavioral\Interpreter\Expression.cs" />
+    <Compile Include="Behavioral\Iterator\IAggregate.cs" />
+    <Compile Include="Behavioral\Iterator\ConcreteAggregate.cs" />
+    <Compile Include="Behavioral\Iterator\ConcreteIterator.cs" />
+    <Compile Include="Behavioral\Iterator\IIterator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\Adapter\Adaptee.cs" />
     <Compile Include="Structural\Adapter\AdapteeToClientAdapter.cs" />

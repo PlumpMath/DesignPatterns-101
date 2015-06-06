@@ -52,6 +52,8 @@
   <ItemGroup>
     <Compile Include="Behavioral\ChainOfResponsibility\ChainOfResponsibilityTest.cs" />
     <Compile Include="Behavioral\Command\CommandTest.cs" />
+    <Compile Include="Behavioral\Interpreter\InterpreterTest.cs" />
+    <Compile Include="Behavioral\Iterator\IteratorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\Adapter\AdapterTest.cs" />
     <Compile Include="Structural\Bridge\BridgeTest.cs" />
