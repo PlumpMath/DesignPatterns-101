@@ -59,6 +59,17 @@
     <Compile Include="Behavioral\Mediator\IChatroom.cs" />
     <Compile Include="Behavioral\Mediator\NonBeatle.cs" />
     <Compile Include="Behavioral\Mediator\Participant.cs" />
+    <Compile Include="Behavioral\Memento\Caretaker.cs" />
+    <Compile Include="Behavioral\Memento\Memento.cs" />
+    <Compile Include="Behavioral\Memento\Originator.cs" />
+    <Compile Include="Behavioral\Observer\ConcreteObserver.cs" />
+    <Compile Include="Behavioral\Observer\ConcreteSubject.cs" />
+    <Compile Include="Behavioral\Observer\Observer.cs" />
+    <Compile Include="Behavioral\Observer\Subject.cs" />
+    <Compile Include="Behavioral\State\ConcreteStateA.cs" />
+    <Compile Include="Behavioral\State\ConcreteStateB.cs" />
+    <Compile Include="Behavioral\State\Context.cs" />
+    <Compile Include="Behavioral\State\State.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\Adapter\Adaptee.cs" />
     <Compile Include="Structural\Adapter\AdapteeToClientAdapter.cs" />
